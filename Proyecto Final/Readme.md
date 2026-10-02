@@ -4,8 +4,8 @@ Bienvenido a la carpeta del **Reto IV-2** del curso de Mecánica Clásica. Este 
 
 ## Equipo de Trabajo y Roles
 Siguiendo los lineamientos del curso, el proyecto se desarrolla distribuyendo e intercambiando funciones fundamentales. 
-* **David Felipe Chirivi Carreño** - [Líder de Equipo]
-* **[Andrés Santiago Santander Fonseca]** - [Coordinador general]
+* **David Felipe Chirivi Carreño** - Líder de Equipo
+* **Andrés Santiago Santander Fonseca** - Coordinador general
 
 *Roles a rotar:* 
 1. **Modelado y análisis:** Formulación física, coordenadas generalizadas, Lagrangiano, aproximaciones y cantidades conservadas.
