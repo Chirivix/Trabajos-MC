@@ -1,6 +1,6 @@
 # Reto IV-2: Dinámica de una botella parcialmente llena que rueda
 
-Bienvenido a la carpeta del **Reto IV-2** del curso de Mecánica Clásica. Este proyecto aborda la resolución de un problema físico complejo en el que no existe una única respuesta "correcta" predefinida. Nuestro objetivo es formular un modelo consistente, establecer hipótesis claras y contrastar resultados computacionales con datos experimentales, apoyados por asistentes de Inteligencia Artificial bajo una estricta auditoría.
+Bienvenidos a la carpeta del **Reto IV-2** del curso de Mecánica Clásica. Este proyecto aborda la resolución de un problema físico complejo en el que no existe una única respuesta "correcta" predefinida. Nuestro objetivo es formular un modelo consistente, establecer hipótesis claras y contrastar resultados computacionales con datos experimentales, apoyados por asistentes de Inteligencia Artificial bajo una estricta auditoría.
 
 ## Equipo de Trabajo y Roles
 Siguiendo los lineamientos del curso, el proyecto se desarrolla distribuyendo e intercambiando funciones fundamentales. 
@@ -36,8 +36,8 @@ Todo uso de IA sigue la **metodología 4D** discutida en el curso.
 
 ## structura del Repositorio
 
-* `📁 bitacora_IA/` : Registro de interacciones con la Inteligencia Artificial. Incluye los prompts, respuestas originales y la auditoría/análisis crítico donde se demuestra qué partes de la solución de la IA son confiables y cuáles fueron descartadas.
-* `📁 data/` : Archivos `.csv` exportados desde Tracker con observaciones crudas y procesadas.
-* `📁 src/` : Código fuente, simulaciones computacionales y cuadernos (notebooks) usados para análisis de datos y resolución de ecuaciones.
-* `📁 docs/` : Documentos teóricos, deducción analítica de modelos, derivaciones matemáticas en LaTeX y reportes.
-* `📁 media/` : Fotografías del montaje experimental, videos de las pruebas e imágenes/gráficos generados.
+* `📁 Bitacora_IA/` : Registro de interacciones con la Inteligencia Artificial. Incluye los prompts, respuestas originales y la auditoría/análisis crítico donde se demuestra qué partes de la solución de la IA son confiables y cuáles fueron descartadas.
+* `📁 Data/` : Archivos `.csv` exportados desde Tracker con observaciones crudas y procesadas.
+* `📁 SRC/` : Código fuente, simulaciones computacionales y cuadernos (notebooks) usados para análisis de datos y resolución de ecuaciones.
+* `📁 Docs/` : Documentos teóricos, deducción analítica de modelos, derivaciones matemáticas en LaTeX y reportes.
+* `📁 Media/` : Fotografías del montaje experimental, videos de las pruebas e imágenes/gráficos generados.
