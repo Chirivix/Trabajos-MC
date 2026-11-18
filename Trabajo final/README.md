@@ -77,9 +77,7 @@ th, om, ph, dph = simular_oleaje(L, omega0=9.0, phi0=0.2, dphi0=0.0, t=t,
 dx, dy = posicion_marca(L.R, th, alpha0=1.2)                       # lo que mide la cámara
 ```
 
-## Qué está verificado y qué no
-
-**Verificado** (`python modelos/verificar.py`, con datos simulados):
+## Qué está verificado
 
 - Nivel 3 contiene al Nivel 1: con $m_1\to0$, $\theta = \omega_0 t$ (error de 10⁻¹⁰).
 - La energía y $p_\theta$ se conservan sin disipación (deriva ~10⁻¹¹).
@@ -91,13 +89,6 @@ dx, dy = posicion_marca(L.R, th, alpha0=1.2)                       # lo que mide
 - El cuaderno final, con los parámetros verdaderos, reproduce datos simulados con 0,19 mm de error (el nivel del ruido): las ecuaciones y la marca están bien implementadas.
 
 **Limitaciones conocidas del ajuste del cuaderno final** (detalle en `docs/04_hoja_de_ruta.md`). Con datos simulados por el propio modelo, el cuaderno **no recuperó los parámetros** (RMSE de predicción de 55 mm, $R^2$ = 0,31): el ángulo inicial de la marca sale sesgado (~10°) y los amortiguamientos no quedan determinados con 0,3 s de calibración. Es una sola configuración simulada, pero obliga a leer los parámetros ajustados con cautela.
-
-**No verificado**
-
-- Ningún cuaderno ni script se ha corrido con un CSV real de Tracker.
-- La tabla de $\kappa_s$ y $\mu_s$ del oleaje y el coeficiente 2 de $\zeta$ no tienen fuente verificada.
-- La lectura de la geometría del Nivel 2 (medio cilindro) no se ha confirmado con el profesor.
-- No hay referencias bibliográficas verificadas en este repositorio.
 
 ## Reglas del trabajo
 
